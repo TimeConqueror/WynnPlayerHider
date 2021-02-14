@@ -38,7 +38,7 @@ public class CHEvents {
             }
 
             if (inWynWorld() && mc.player != player && player.getName().length() >= 3 && player.getName().length() <= 16 && !friends.contains(player.getName())) {
-                if (CHConfig.type.equals("scale")) {
+                if (CHConfig.type.equals("shrink")) {
                     float distance = mc.player.getDistance(player);
 
                     if (distance < CHConfig.distance) {

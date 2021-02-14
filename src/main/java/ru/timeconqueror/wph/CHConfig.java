@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class CHConfig {
     @Config.LangKey("config.wph.type")
     @Config.Comment({"Determines the type of player visualization change upon other player approach.",
-            "Possible values: none, scale, vanish",
+            "Possible values: none, shrink, vanish",
             "Default: none"})
     public static String type = "none";
 
@@ -22,7 +22,7 @@ public class CHConfig {
     public static double distance = 7;
 
     @Config.LangKey("config.wph.size")
-    @Config.Comment({"Only for visualization type 'scale'. Determines the minimum size of scaled players.",
+    @Config.Comment({"Only for visualization type 'shrink'. Determines the minimum size of shrunk players.",
             "Default: 0.3"})
     @Config.RangeDouble(min = 0.01, max = 1)
     public static double size = 0.3;
