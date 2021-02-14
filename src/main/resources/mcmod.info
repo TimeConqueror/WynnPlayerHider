@@ -1,0 +1,15 @@
+[
+{
+  "modid": "wynn_player_hider",
+  "name": "Wynn Player Hider",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Time_Conqueror"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,6 @@
+config.wph.type=Visualization Type
+config.wph.type.tooltip=Determines the type of player visualization change upon other player approach.\nPossible values: none, scale, vanish
+config.wph.size=Scale: Minimum Size
+config.wph.size.tooltip=Only for visualization type 'scale'. Determines the minimum size of scaled players.
+config.wph.distance=Visualization Change Distance
+config.wph.distance.tooltip=Determines the radius of player visualization change.
